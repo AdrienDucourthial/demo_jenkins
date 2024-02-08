@@ -3,7 +3,6 @@ pipeline{
   environment {
     NAME = "Adrien"
   }
-  tools{maven 'maven'}
   stages{
     stage("Hello"){
       steps{
